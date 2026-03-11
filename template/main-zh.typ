@@ -1,8 +1,8 @@
 #import "@preview/basic-resume:0.2.9": *
 
 // Put your personal information here, replacing mine
-#let name = "Jiashun Wang"
-#let location = "Qingdao, China"
+#let name = "王佳顺"
+#let location = "山东省青岛市崂山区"
 #let email = "wjs@ieee.org"
 #let github = "github.com/jiashun-wang"
 #let linkedin = "linkedin.com/in/wang_jiashun"
@@ -16,10 +16,10 @@
   // feel free to comment those lines out and they will not show.
   location: location,
   email: email,
-  github: github,
-  linkedin: linkedin,
-  //phone: phone,
-  personal-site: personal-site,
+  //github: github,
+  //linkedin: linkedin,
+  phone: phone,
+  //personal-site: personal-site,
   accent-color: "#26428b",
   //font: "New Computer Modern",
   font: "Helvetica",
@@ -41,13 +41,13 @@
 * #generic-two-by-two(top-left: "", top-right: "", bottom-left: "", bottom-right: "")
 * #generic-one-by-two(left: "", right: "")
 */
-== Education
+== 教育背景
 
 #edu(
-  institution: "Harbin Engineering University (HEU)",
-  location: "Harbin, China",
-  dates: dates-helper(start-date: "Sep 2021", end-date: "Jun 2024"),
-  degree: "Master's of Science, Marine Science",
+  institution: "哈尔滨工程大学",
+  location: "黑龙江省哈尔滨市",
+  dates: dates-helper(start-date: "2021年9月", end-date: "2024年6月"),
+  degree: "理学硕士, 海洋科学",
 
   // Uncomment the line below if you want edu formatting to be consistent with everything else
   // consistent: true
@@ -57,18 +57,18 @@
 
 
 #edu(
-  institution: "Guangdong Ocean University",
-  location: "Zhanjiang, China",
-  dates: dates-helper(start-date: "Sep 2021", end-date: "Jun 2024"),
-  degree: "Bachelor of Science, Marine Science",
-  
+  institution: "广东海洋大学",
+  location: "广东省湛江市",
+  dates: dates-helper(start-date: "2021年9月", end-date: "2024年6月"),
+  degree: "理学学士, 海洋科学",
+
   // Uncomment the line below if you want edu formatting to be consistent with everything else
   // consistent: true
 )
 - Cumulative GPA: 3.6\/5.0 | Dean's List, Harvey S. Mudd Merit Scholarship, National Merit Scholarship
 - Relevant Coursework: Data Structures, Program Development, Microprocessors, Abstract Algebra I: Groups and Rings, Linear Algebra, Discrete Mathematics, Multivariable & Single Variable Calculus, Principles and Practice of Comp Sci
 
-== Experience
+== 工作经历
 
 #work(
   title: "Subatomic Shepherd and Caffeine Connoisseur",
@@ -110,7 +110,7 @@
 - Developed a cross-platform mobile app that turned every user into a potential paparazzi
 - Led a security overhaul, heroically saving the company from the menace of "password123"
 
-== Projects
+== 项目经验
 
 #project(
   name: "Hyperschedule",
@@ -149,6 +149,6 @@
 //   date: "Oct 2024",
 // )
 
-== Skills
-- *Programming Languages*: JavaScript, Python, C/C++, HTML/CSS, Java, Bash, R, Flutter, Dart
+== 技能
+- *编程语言*: JavaScript, Python, C/C++, HTML/CSS, Java, Bash, R, Flutter, Dart
 - *Technologies*: React, Astro, Svelte, Tailwind CSS, Git, UNIX, Docker, Caddy, NGINX, Google Cloud Platform
