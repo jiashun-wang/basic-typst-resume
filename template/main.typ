@@ -1,13 +1,13 @@
 #import "@preview/basic-resume:0.2.9": *
 
 // Put your personal information here, replacing mine
-#let name = "Stephen Xu"
-#let location = "San Diego, CA"
-#let email = "stxu@hmc.edu"
-#let github = "github.com/stuxf"
-#let linkedin = "linkedin.com/in/stuxf"
-#let phone = "+1 (xxx) xxx-xxxx"
-#let personal-site = "stuxf.dev"
+#let name = "Jiashun Wang"
+#let location = "Qingdao, China"
+#let email = "wjs@ieee.org"
+#let github = "github.com/jiashun-wang"
+#let linkedin = "linkedin.com/in/wang_jiashun"
+#let phone = "+86 173-2577-2985"
+#let personal-site = "jia-shun.wang"
 
 #show: resume.with(
   author: name,
@@ -18,11 +18,12 @@
   email: email,
   github: github,
   linkedin: linkedin,
-  phone: phone,
+  //phone: phone,
   personal-site: personal-site,
   accent-color: "#26428b",
-  font: "New Computer Modern",
-  paper: "us-letter",
+  //font: "New Computer Modern",
+  font: "Helvetica",
+  paper: "a4",
   author-position: left,
   personal-info-position: left,
 )
@@ -43,15 +44,28 @@
 == Education
 
 #edu(
-  institution: "Harvey Mudd College",
-  location: "Claremont, CA",
-  dates: dates-helper(start-date: "Aug 2023", end-date: "May 2027"),
-  degree: "Bachelor's of Science, Computer Science and Mathematics",
+  institution: "Harbin Engineering University (HEU)",
+  location: "Harbin, China",
+  dates: dates-helper(start-date: "Sep 2021", end-date: "Jun 2024"),
+  degree: "Master's of Science, Marine Science",
 
   // Uncomment the line below if you want edu formatting to be consistent with everything else
   // consistent: true
 )
-- Cumulative GPA: 4.0\/4.0 | Dean's List, Harvey S. Mudd Merit Scholarship, National Merit Scholarship
+- Cumulative GPA: 3.2\/4.0 | Dean's List, Harvey S. Mudd Merit Scholarship, National Merit Scholarship
+- Relevant Coursework: Data Structures, Program Development, Microprocessors, Abstract Algebra I: Groups and Rings, Linear Algebra, Discrete Mathematics, Multivariable & Single Variable Calculus, Principles and Practice of Comp Sci
+
+
+#edu(
+  institution: "Harbin Engineering University",
+  location: "Harbin, China",
+  dates: dates-helper(start-date: "Sep 2021", end-date: "Jun 2024"),
+  degree: "Master's of Science, Marine Science",
+  
+  // Uncomment the line below if you want edu formatting to be consistent with everything else
+  // consistent: true
+)
+- Cumulative GPA: 3.2\/4.0 | Dean's List, Harvey S. Mudd Merit Scholarship, National Merit Scholarship
 - Relevant Coursework: Data Structures, Program Development, Microprocessors, Abstract Algebra I: Groups and Rings, Linear Algebra, Discrete Mathematics, Multivariable & Single Variable Calculus, Principles and Practice of Comp Sci
 
 == Work Experience
